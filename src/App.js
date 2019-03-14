@@ -8,12 +8,6 @@ class App extends Component {
     return (
       <div>
         <Pagehome />
-
-        <header>
-          <h1>
-            Edit <code>开启项目</code> and save to reload. Learn React
-          </h1>
-        </header>
       </div>
     );
   }
