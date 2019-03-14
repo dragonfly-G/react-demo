@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Pagehome from './page/Pagehome'
+
 import './App.css';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div>
         <Pagehome />
+
         <header>
           <h1>
             Edit <code>开启项目</code> and save to reload. Learn React
