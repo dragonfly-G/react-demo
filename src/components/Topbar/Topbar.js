@@ -1,6 +1,8 @@
 import React from 'react';
 import { Layout, Icon } from 'antd';
 
+import './Topbar.css'
+
 const { Header } = Layout;
 
 class Topbar extends React.Component {
@@ -18,7 +20,7 @@ class Topbar extends React.Component {
   
   render() {
     return (
-      <Header style={{ background: '#fff', padding: 0 }}>
+      <Header style={{ background: '#fff', padding: '0 16px'}}>
         <Icon
           className="trigger"
           type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}

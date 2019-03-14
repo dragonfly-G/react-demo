@@ -1,6 +1,6 @@
 import React from 'react';
-import Sliderbar from '../components/Sliderbar'
-import Topbar from '../components/Topbar'
+import Sliderbar from '../components/Sliderbar/Sliderbar'
+import Topbar from '../components/Topbar/Topbar'
 import { Layout } from 'antd';
 
 const { Content } = Layout;
@@ -22,11 +22,8 @@ class Pagehome extends React.Component {
         <Sliderbar status={this.state.collapsed} />
         <Layout>
           <Topbar handleChange={this.changeCollapsed}/>
-          <Content style={{
-            margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280,
-          }}
-          >
-            Content11111111111111111111111111
+          <Content style={{margin: '24px 16px', padding: 24, background: '#fff', minHeight: 280,}}>
+            {this.props.children}
           </Content>
         </Layout>
       </Layout>

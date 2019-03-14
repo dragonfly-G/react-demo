@@ -1,0 +1,11 @@
+.logo{
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+}
+.ant-menu-item a {
+    color: rgba(255, 255, 255, 0.65);
+}
+.ant-menu-item:hover a{
+    color: #fff;
+}
