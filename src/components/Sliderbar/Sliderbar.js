@@ -35,7 +35,7 @@ class Sliderbar extends React.Component {
             </Link>
           </Menu.Item>
           <Menu.Item key="4">
-            <Icon type="upload" />
+            <Icon type="file-sync" />
             <span>nav 4</span>
           </Menu.Item>
         </Menu>

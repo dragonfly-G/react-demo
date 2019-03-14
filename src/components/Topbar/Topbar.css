@@ -1,3 +1,22 @@
 header{
    font-size: 20px;
+   background: #fff !important;
+   padding: 0 16px !important;
+   position: relative;
 }
+/*请登录*/
+.login-user{
+   position: absolute;
+   top: 0;
+   right: 60px;
+}
+.login-user span {
+   font-size: 14px;
+   margin-right: 3px;
+   color: #001529;
+}
+.anticon-down{
+   font-size: 15px;
+   color: #001529;
+}
+
